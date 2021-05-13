@@ -150,9 +150,9 @@ def randomurl():
 def GenReqHeader(method):
 	global data
 	header = ""
-	deviceuid = "device_uid: 6cf1f1d5-189d-43fa-9f49-efa5e43057fc\r\n"
-	app_id = "app_id: e70f1b125cbad944424393cf309efaf0\r\n"
-	authorization = "Authorization: Bearer  ff53ecb432bd0a39c72fff55134dad3788fcc26efad6a899635e548076dd01fe68295e27f07d2274cc7720b5ec8b33ba\r\n"
+	deviceuid = "device_uid: inser_deviceuid_in_here\r\n"
+	app_id = "app_id: inser_app_id_in_here\r\n"
+	authorization = "Authorization: Bearer  insert_authen_code_in_here\r\n"
 	if method == "get" or method == "head":
 		connection = "Connection: Keep-Alive\r\n"
 		if cookies != "":
